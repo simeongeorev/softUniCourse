@@ -1,12 +1,12 @@
-# for x in ["spam", "eggs", "ham"]:
-#     print(x, end=' ')
-# import sys
-#
-# for i in range(97, 100):
-#     print(chr(i))
-#
-# print(sys.platform)
-# print('Spam!' * 8)
+import sys
+import math
 
-for i in "spanish":
-    print(i)
+# Auto-generated code below aims at helping you parse
+# the standard input according to the problem statement.
+
+s = input()
+
+# Write an answer using print
+# To debug: print("Debug messages...", file=sys.stderr, flush=True)
+
+print("pattern")
