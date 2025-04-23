@@ -12,5 +12,8 @@
 # print("pattern")
 
 
-print(ord("palach"))
-print(ord("p"))
+# print(ord("palach"))
+# print(ord("p"))
+
+my_list = []
+print(my_list)
