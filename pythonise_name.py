@@ -3,7 +3,7 @@ def pythonise(string):
     indexes_to_del = []
 
     for i in range(len(string_list)):
-        if string_list[i] == " ":
+        if string_list[i] == " " or string_list[i] == "-":
             string_list[i] = "_"
         if string_list[i] == ".":
             indexes_to_del.append(i)
@@ -13,4 +13,8 @@ def pythonise(string):
 
     return "".join(string_list).lower()
 
-print(pythonise(input()))
+while True:
+    command = input()
+    if command == "end":
+        break
+    print(pythonise(command))
