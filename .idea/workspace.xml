@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a959e230-a679-4b37-ae6c-b5158ad03977" name="Changes" comment="Finished Mario's python_text_toolkit, but it needs some refactoring.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals/10_lists_advanced_exercise/10_pokemon_don't_go.py" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals/10_lists_advanced_exercise/10_pokemon_don't_go.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals/10_lists_advanced_exercise/11_softuni_course_planning.py" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals/10_lists_advanced_exercise/11_softuni_course_planning.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,7 @@
       <recent name="C:\Users\simeo\PycharmProjects\softUniCourse\programming_basics\04_exercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.10_bread_factory">
+  <component name="RunManager" selected="Python.11_softuni_course_planning">
     <configuration name="08_seize_the_fire" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="softUniCourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="python_text_toolkit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="10_pokemon_don't_go" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="softUniCourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,11 +129,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mario_tasks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fundamentals/10_lists_advanced_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mario_tasks/python_text_toolkit" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fundamentals/10_lists_advanced_exercise/10_pokemon_don't_go.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pythonise_name" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="11_softuni_course_planning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="softUniCourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,11 +150,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fundamentals/10_lists_advanced_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonise_name.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fundamentals/10_lists_advanced_exercise/11_softuni_course_planning.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.11_softuni_course_planning" />
+        <item itemvalue="Python.10_pokemon_don't_go" />
         <item itemvalue="Python.10_bread_factory" />
         <item itemvalue="Python.09_hello_france" />
         <item itemvalue="Python.08_seize_the_fire" />
-        <item itemvalue="Python.pythonise_name" />
-        <item itemvalue="Python.python_text_toolkit" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +258,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/fundamentals/06_lists_basics_exercise/10_bread_factory.py</url>
-          <line>17</line>
+          <line>16</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
