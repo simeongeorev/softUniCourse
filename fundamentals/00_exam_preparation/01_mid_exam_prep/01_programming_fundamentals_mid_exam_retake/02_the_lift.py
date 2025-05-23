@@ -1,29 +1,24 @@
 people_waiting = int(input())
-lift_seats = list(map(int, input().split()))
 
-max_ppl_per_seat = 4
+lift_wagons = list(map(int, input().split()))
 
-for i in range(len(lift_seats)):
+people_already_on_the_lift = sum(lift_wagons)
 
-    current_people_sitting_on_lift = max_ppl_per_seat - lift_seats[i]
+capacity_for_new_people = len(lift_wagons) * 4 - people_already_on_the_lift
 
-    if people_waiting - current_people_sitting_on_lift == 0:
-        lift_seats[i] = max_ppl_per_seat
-        people_waiting -= current_people_sitting_on_lift
-        break
+if people_waiting == capacity_for_new_people:
+    lift_wagons = [4 for wagon in lift_wagons]
 
-    elif people_waiting - current_people_sitting_on_lift < 0:
-        print("The lift has empty spots!")
-        lift_seats[i] += people_waiting
-        break
+if people_waiting > capacity_for_new_people:
+    print(f"There isn't enough space! {people_waiting - capacity_for_new_people} people in a queue!")
+    lift_wagons = [4 for wagon in lift_wagons]
 
-    lift_seats[i] = max_ppl_per_seat
-    people_waiting -= current_people_sitting_on_lift
-else:
-    print(f"There isn't enough space! {people_waiting} people in a queue!")
-for seat in lift_seats:
-    print(seat, end=" ")
+if people_waiting < capacity_for_new_people:
+    print("The lift has empty spots!")
+    for i in range(len(lift_wagons)):
+        while lift_wagons[i] < 4 and people_waiting > 0:
+            people_waiting -= 1
+            lift_wagons[i] += 1
 
-#TODO check why only 9/10 pass
-
-
+for wagon in lift_wagons:
+    print(wagon, end=" ")
