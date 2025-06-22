@@ -62,7 +62,7 @@ def is_palindrome(original_text: str) -> bool:
 
 
 # 9. Word Frequency Counter
-# TODO to make it prettier
+# TODO to make it prettier - replace with regex for all special symbols
 def unique_word_counts(original_text: str) -> list:
     original_text = original_text.replace(".", "")
     original_text = original_text.replace(",", "")
@@ -78,54 +78,71 @@ def unique_word_counts(original_text: str) -> list:
     words_dict = sorted(words_dict.items(), key=lambda x: x[1], reverse=True)
     return words_dict
 
+while True:
 
-# Step 2: Get the user's choice
-choice = int(input("Enter the number corresponding to your choice: "))
+    # Step 2: Get the user's choice
+    choice = int(input("Enter the number corresponding to your choice: "))
 
-# Step 3: Get the input string
-text = input("Enter the text: ")
+    # Step 3: Get the input string
+    text = input("Enter the text: ")
 
-# Step 4: Apply the selected transformation
-if choice == 1:
-    # Reverse the text using slicing or a loop
-    print("The reversed text is:", reverse_text(text))
+    # Step 4: Apply the selected transformation
+    if choice == 1:
+        # Reverse the text using slicing or a loop
+        print("The reversed text is:", reverse_text(text))
 
-elif choice == 2:
-    # Convert the text to uppercase using string methods
-    print("The converted text to uppercase is:", convert_to_uppercase(text))
+    elif choice == 2:
+        # Convert the text to uppercase using string methods
+        print("The converted text to uppercase is:", convert_to_uppercase(text))
 
-elif choice == 3:
-    # Convert the text to lowercase using string methods
-    print("The converted text to lowercase is:", convert_to_lowercase(text))
+    elif choice == 3:
+        # Convert the text to lowercase using string methods
+        print("The converted text to lowercase is:", convert_to_lowercase(text))
 
-elif choice == 4:
-    # Convert the text to title case (capitalize each word)
-    print("The converted text to title case is:", convert_to_title_case(text))
+    elif choice == 4:
+        # Convert the text to title case (capitalize each word)
+        print("The converted text to title case is:", convert_to_title_case(text))
 
-elif choice == 5:
-    # Count how many vowels are in the text (a, e, i, o, u)
-    print(f"The text contains {count_vowels(text)} vowels.")
+    elif choice == 5:
+        # Count how many vowels are in the text (a, e, i, o, u)
+        print(f"The text contains {count_vowels(text)} vowels.")
 
-elif choice == 6:
-    # Remove all spaces from the string using replace() or join()
-    print(f"The text without spaces is:", remove_spaces(text))
+    elif choice == 6:
+        # Remove all spaces from the string using replace() or join()
+        print(f"The text without spaces is:", remove_spaces(text))
 
-elif choice == 7:
-    # Replace all vowels with "*" using a loop or comprehension
-    print(f"The text with asterisks, instead of spaces is:", replace_vowels_with_asterisks(text))
+    elif choice == 7:
+        # Replace all vowels with "*" using a loop or comprehension
+        print(f"The text with asterisks, instead of spaces is:", replace_vowels_with_asterisks(text))
 
-elif choice == 8:
-    # Check if the text is a palindrome (ignoring case and spaces)
-    if is_palindrome(text):
-        print("The text is a palindrome.")
+    elif choice == 8:
+        # Check if the text is a palindrome (ignoring case and spaces)
+        if is_palindrome(text):
+            print("The text is a palindrome.")
+        else:
+            print("The text is not a palindrome.")
+
+    elif choice == 9:
+        # Count the frequency of each word and display the result
+        print("The count of each word in the text is: ")
+        for item in unique_word_counts(text):
+            print(f"{item[0]} - {item[1]}")
+
     else:
-        print("The text is not a palindrome.")
+        print("❌ Invalid choice! Please restart the program.")
 
-elif choice == 9:
-    # Count the frequency of each word and display the result
-    print("The count of each word in the text is: ")
-    for item in unique_word_counts(text):
-        print(f"{item[0]} - {item[1]}")
+    print("Do you want to continue with the program? (y/n)")
+    end_command = input()
 
-else:
-    print("❌ Invalid choice! Please restart the program.")
+    if end_command != "y":
+        break
+
+    print("Do you want to continue using the same text? (y/n)")
+    use_same_text_command = input()
+    use_same_text_flag = True
+
+    # TODO try using the same text 
+    if use_same_text_command != "y":
+        break
+
+

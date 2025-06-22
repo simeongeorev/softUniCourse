@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a959e230-a679-4b37-ae6c-b5158ad03977" name="Changes" comment="Finished Mario's python_text_toolkit, but it needs some refactoring.">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/softUniCourse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/softUniCourse.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fundamentals/10_lists_advanced_exercise/10_pokemon_don't_go.py" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals/10_lists_advanced_exercise/10_pokemon_don't_go.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fundamentals/10_lists_advanced_exercise/11_softuni_course_planning.py" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals/10_lists_advanced_exercise/11_softuni_course_planning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals/00_exam_preparation/01_mid_exam_prep/01_programming_fundamentals_mid_exam_retake/01_computer_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals/00_exams/01_mid_exam_prep/01_programming_fundamentals_mid_exam_retake/01_computer_store.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals/00_exam_preparation/01_mid_exam_prep/01_programming_fundamentals_mid_exam_retake/02_the_lift.py" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals/00_exams/01_mid_exam_prep/01_programming_fundamentals_mid_exam_retake/02_the_lift.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals/00_exam_preparation/01_mid_exam_prep/01_programming_fundamentals_mid_exam_retake/03_memory_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals/00_exams/01_mid_exam_prep/01_programming_fundamentals_mid_exam_retake/03_memory_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals/00_exam_preparation/01_mid_exam_prep/02_programming_fundamentals_mid_exam_retake/01_softuni_reception.py" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals/00_exams/01_mid_exam_prep/02_programming_fundamentals_mid_exam_retake/01_softuni_reception.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals/00_exam_preparation/01_mid_exam_prep/02_programming_fundamentals_mid_exam_retake/02_array_modifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals/00_exams/01_mid_exam_prep/02_programming_fundamentals_mid_exam_retake/02_array_modifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals/00_exam_preparation/01_mid_exam_prep/02_programming_fundamentals_mid_exam_retake/03_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals/00_exams/01_mid_exam_prep/02_programming_fundamentals_mid_exam_retake/03_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals/00_exam_preparation/01_mid_exam_prep/02_programming_fundamentals_mid_exam_retake/descriptions/01. SoftUni Reception.docx" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals/00_exams/01_mid_exam_prep/02_programming_fundamentals_mid_exam_retake/descriptions/01. SoftUni Reception.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals/00_exam_preparation/01_mid_exam_prep/02_programming_fundamentals_mid_exam_retake/descriptions/02. Array Modifier.docx" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals/00_exams/01_mid_exam_prep/02_programming_fundamentals_mid_exam_retake/descriptions/02. Array Modifier.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals/00_exam_preparation/01_mid_exam_prep/02_programming_fundamentals_mid_exam_retake/descriptions/03. Numbers.docx" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals/00_exams/01_mid_exam_prep/02_programming_fundamentals_mid_exam_retake/descriptions/03. Numbers.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals/00_exam_preparation/01_mid_exam_prep/03_programming_fundamentals_mid_exam_retake/01_counter_strike.py" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals/00_exams/01_mid_exam_prep/03_programming_fundamentals_mid_exam_retake/01_counter_strike.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals/00_exam_preparation/01_mid_exam_prep/03_programming_fundamentals_mid_exam_retake/02_shoot_for_the_win.py" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals/00_exams/01_mid_exam_prep/03_programming_fundamentals_mid_exam_retake/02_shoot_for_the_win.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals/00_exam_preparation/01_mid_exam_prep/03_programming_fundamentals_mid_exam_retake/03_moving_target.py" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals/00_exams/01_mid_exam_prep/03_programming_fundamentals_mid_exam_retake/03_moving_target.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals/00_exam_preparation/01_mid_exam_prep/04_programming_fundamentals_mid_exam_retake/01_guinea_pig.py" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals/00_exams/01_mid_exam_prep/04_programming_fundamentals_mid_exam_retake/01_guinea_pig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals/00_exam_preparation/01_mid_exam_prep/04_programming_fundamentals_mid_exam_retake/02_shopping_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals/00_exams/01_mid_exam_prep/04_programming_fundamentals_mid_exam_retake/02_shopping_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals/00_exam_preparation/01_mid_exam_prep/04_programming_fundamentals_mid_exam_retake/03_heart_delivery.py" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals/00_exams/01_mid_exam_prep/04_programming_fundamentals_mid_exam_retake/03_heart_delivery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals/00_exam_preparation/01_mid_exam_prep/04_programming_fundamentals_mid_exam_retake/descriptions/01. Guinea pig.docx" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals/00_exams/01_mid_exam_prep/04_programming_fundamentals_mid_exam_retake/descriptions/01. Guinea pig.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals/00_exam_preparation/01_mid_exam_prep/04_programming_fundamentals_mid_exam_retake/descriptions/02. Shopping List.docx" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals/00_exams/01_mid_exam_prep/04_programming_fundamentals_mid_exam_retake/descriptions/02. Shopping List.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals/00_exam_preparation/01_mid_exam_prep/04_programming_fundamentals_mid_exam_retake/descriptions/03. Heart Delivery.docx" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals/00_exams/01_mid_exam_prep/04_programming_fundamentals_mid_exam_retake/descriptions/03. Heart Delivery.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mario_tasks/python_text_toolkit" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,48 +51,58 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2r9ugl2TBx43v3B2Eo7YzRpPDI2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/programming_basics/14_exercise_nested_loops" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.01_cooking_masterclass.executor": "Run",
+    "Python.02_friend_list_maintenance.executor": "Run",
+    "Python.03_chat_logger.executor": "Run",
+    "Python.python_text_toolkit.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/simeon_g7/Documents/repos/softUniCourse/fundamentals/00_exams/02_mid_exam/descriptions",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fundamentals/00_exams/02_mid_exam/descriptions" />
       <recent name="C:\Users\simeo\PycharmProjects\softUniCourse\programming_basics\14_exercise_nested_loops" />
       <recent name="C:\Users\simeo\PycharmProjects\softUniCourse\programming_basics\12_excercise_while" />
       <recent name="C:\Users\simeo\PycharmProjects\softUniCourse\programming_basics\for_loops_more_excercises" />
       <recent name="C:\Users\simeo\PycharmProjects\softUniCourse\programming_basics\09_lecture" />
-      <recent name="C:\Users\simeo\PycharmProjects\softUniCourse\programming_basics\08_excercise" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\simeo\PycharmProjects\softUniCourse\programming_basics\example_exams" />
       <recent name="C:\Users\simeo\PycharmProjects\softUniCourse\programming_basics\04_exercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.11_softuni_course_planning">
-    <configuration name="08_seize_the_fire" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.03_chat_logger">
+    <configuration name="01_cooking_masterclass" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="softUniCourse" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fundamentals/06_lists_basics_exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fundamentals/00_exams/02_mid_exam" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fundamentals/06_lists_basics_exercise/08_seize_the_fire.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fundamentals/00_exams/02_mid_exam/01_cooking_masterclass.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -79,19 +111,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="09_hello_france" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02_friend_list_maintenance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="softUniCourse" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fundamentals/06_lists_basics_exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fundamentals/00_exams/02_mid_exam" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fundamentals/06_lists_basics_exercise/09_hello_france.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fundamentals/00_exams/02_mid_exam/02_friend_list_maintenance.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,40 +133,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10_bread_factory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03_chat_logger" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="softUniCourse" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fundamentals/06_lists_basics_exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fundamentals/00_exams/02_mid_exam" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fundamentals/06_lists_basics_exercise/10_bread_factory.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="10_pokemon_don't_go" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="softUniCourse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fundamentals/10_lists_advanced_exercise" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fundamentals/10_lists_advanced_exercise/10_pokemon_don't_go.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fundamentals/00_exams/02_mid_exam/03_chat_logger.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,6 +157,7 @@
     </configuration>
     <configuration name="11_softuni_course_planning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="softUniCourse" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -163,15 +177,44 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="python_text_toolkit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="softUniCourse" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mario_tasks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mario_tasks/python_text_toolkit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.03_chat_logger" />
+        <item itemvalue="Python.02_friend_list_maintenance" />
+        <item itemvalue="Python.01_cooking_masterclass" />
+        <item itemvalue="Python.python_text_toolkit" />
         <item itemvalue="Python.11_softuni_course_planning" />
-        <item itemvalue="Python.10_pokemon_don't_go" />
-        <item itemvalue="Python.10_bread_factory" />
-        <item itemvalue="Python.09_hello_france" />
-        <item itemvalue="Python.08_seize_the_fire" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-53e2683a6804-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26094.141" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -237,7 +280,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fundamental exercises ut to Sunday's whiles" />
