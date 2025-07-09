@@ -43,18 +43,15 @@ while True:
         elif player2_total_points > player1_total_points:
             del player_position_dict[player1]
 
-# strongest_player = ""
-# most_points = 0
-# for player, position in player_position_dict.items():
-#     if sum(position.values()) > most_points:
-#         strongest_player = player
-#         most_points = sum(position.values())
+sorted_dict = dict(sorted(player_position_dict.items(),
+                          key=lambda tup: (sum(tup[1].values())),
+                          reverse=True))
 
-player_total_points_dict = {}
-for player, position in player_position_dict.items():
-    player_total_points_dict[player] = sum(position.values())
-sorted_player_total_points_dict = dict(sorted(player_total_points_dict.items(), key=lambda item:item[1], reverse=True))
-for player, total_points in sorted_player_total_points_dict.items():
-    print(f"{player}: {total_points} skill")
+for player, position_dict in sorted_dict.items():
+    sorted_position_skill_dict = dict(sorted(position_dict.items(),
+                                             key=lambda tup: tup[1],
+                                             reverse=True))
+    print(f"{player}: {sum(position_dict.values())} skill")
+    for position, skill in sorted_position_skill_dict.items():
+        print(f"- {position} <::> {skill}")
 
-# TODO figure out the sorting
