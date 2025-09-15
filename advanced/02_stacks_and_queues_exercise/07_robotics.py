@@ -19,7 +19,7 @@ class Robot:
         return self.availability
 
 def format_seconds(seconds):
-    seconds = seconds % (24 * 3600)
+    seconds = seconds % (24 * 3600) # done by AI
     hours = seconds // 3600
     seconds %= 3600
     minutes = seconds // 60
@@ -45,7 +45,7 @@ while (addition := input()) != "End":
 while products_queue:
     time += 1
 
-    for robot in robots_list:
+    for robot in robots_list: # done by AI
         robot.is_free(time)
 
     free_robot = False
