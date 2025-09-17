@@ -45,3 +45,5 @@ if working_bees:
     print(f"Bees left: {', '.join(str(el) for el in working_bees)}")
 if nectar:
     print(f"Nectar left: {', '.join(str(el) for el in nectar)}")
+
+# TODO 1 edge case is failing. Figure out why.
