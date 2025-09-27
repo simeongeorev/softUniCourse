@@ -13,6 +13,7 @@ This is a SoftUni Python programming course repository containing educational ex
 - **`fundamentals/`** - Intermediate concepts (functions, lists, dictionaries, OOP, regex)
 - **`advanced/`** - Advanced data structures (stacks, queues, sets, multidimensional lists)
 - **`mario_tasks/`** - Special guided projects with detailed markdown instructions
+- **`tools/`** - Utility scripts for course management (e.g., automated file creation)
 
 ### Exercise Structure Pattern
 Each topic follows a consistent pattern:
@@ -76,6 +77,9 @@ python3 -m flake8 filename.py --ignore=E501,W503
 
 # Run the name conversion utility
 python3 pythonise_name.py
+
+# Create exercise files from task names
+python3 tools/create_tasks.py --folder new_lab --batch "01. First Task" "02. Second Task"
 ```
 
 ## Key Development Patterns
