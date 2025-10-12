@@ -6,8 +6,8 @@ O_SIGN = 'O'
 
 def setup():
     global player_one, player_two
-    player_one_name = input("Player one name: ")
-    player_two_name = input("Player two name: ")
+    player_one_name = input("Player one name: ").strip()
+    player_two_name = input("Player two name: ").strip()
 
     while True:
         player_one_sign = input(f"{player_one_name} would you like to play with "
