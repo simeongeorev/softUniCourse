@@ -8,14 +8,15 @@ possible_moves = ((-2, 1), (-1, 2),
                   (-1, -2), (-2, -1))
 
 knights_powers = [1, 1]
+
+ks_indexes = []
+
+for row_i in range(n):
+    for col_i in range(n):
+        if chess_board[row_i][col_i] == "K":
+            ks_indexes.append([row_i, col_i])
+
 while sum(knights_powers) != 0:
-
-    ks_indexes = []
-
-    for row_i in range(n):
-        for col_i in range(n):
-            if chess_board[row_i][col_i] == "K":
-                ks_indexes.append([row_i, col_i])
 
     knights_powers.clear()
 
@@ -42,6 +43,7 @@ while sum(knights_powers) != 0:
     row_del, col_del = ks_indexes[strongest_index]
     chess_board[row_del][col_del] = "0"
     if strongest_k > 0:
+        ks_indexes.remove([row_del, col_del])
         deleted_ks += 1
 
 print(deleted_ks)
