@@ -1,0 +1,8 @@
+Function add was called. Result: 4
+Function mult was called. Result: 24
+Function 'add' was called. Result: 4
+Function 'mult' was called. Result: 24
+Function 'add' was called. Result: 20
+Function 'mult' was called. Result: 810
+Function 'add' was called. Result: 20
+Function 'mult' was called. Result: 810
